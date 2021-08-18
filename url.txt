@@ -1,0 +1,27 @@
+php artisan cache:clear    
+php artisan route:clear
+php artisan config:clear
+php artisan view:clear
+-----------------------------------------------
+All => php artisan optimize
+ 
+-----------------------------------------------   
+
+php artisan cache: clear
+php artisan config: clear
+php artisan cache: clear
+-------------------
+
+composer create-project laravel/laravel laravel_eight
+
+
+composer require laravel/ui
+php artisan ui vue --auth
+php artisan migrate
+
+--------------------------------------------------
+php artisan make:migration create_new_test_table         => create_vipultablename_table  => tablename -> vipultablename
+
+php artisan make:migration remove_last_name_colum_from_new_table --table*new_table
+
+php artisan make:migration remove_last_name_colum_from_new_test --table*new_test
